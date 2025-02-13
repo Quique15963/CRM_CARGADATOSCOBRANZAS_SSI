@@ -11,14 +11,11 @@ variables:
   project: 'CRM_CARGADATOSCOBRANZAS_SSI.dtproj'
   buildConfiguration: 'Release'
   GroupAgent: Agentes_Compilacion
-  Agent: Agente_Compilacion_A
   Publish: 'CRM_CARGADATOSCOBRANZAS_SSI'
   PublishArtifact: '$(build.artifactstagingdirectory)'
 
 pool:
   name: $(GroupAgent)
-  demands:
-  - Agent.name -equals $(Agent)
   
 steps:
 - task: CmdLine@2
