@@ -8,11 +8,11 @@ trigger:
 
 variables:
   solution: '**/*.sln'
-  project: 'CRM_CARGADATOSBXT.dtproj'
+  project: 'CRM_CARGADATOSCOBRANZAS_SSI/CRM_CARGADATOSCOBRANZAS_SSI.dtproj'
   buildConfiguration: 'Release'
   GroupAgent: Agentes_Compilacion
   Agent: Agente_Compilacion_A
-  Publish: 'CRM_CARGADATOSBXT'
+  Publish: 'CRM_CARGADATOSCOBRANZAS_SSI'
   PublishArtifact: '$(build.artifactstagingdirectory)'
 
 pool:
