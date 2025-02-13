@@ -8,7 +8,7 @@ trigger:
 
 variables:
   solution: '**/*.sln'
-  project: 'CRM_CARGADATOSCOBRANZAS_SSI/CRM_CARGADATOSCOBRANZAS_SSI.dtproj'
+  project: 'CRM_CARGADATOSCOBRANZAS_SSI.dtproj'
   buildConfiguration: 'Release'
   GroupAgent: Agentes_Compilacion
   Agent: Agente_Compilacion_A
