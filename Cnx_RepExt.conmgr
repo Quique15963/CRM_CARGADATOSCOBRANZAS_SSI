@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Cnx_RepExt"
+  DTS:DTSID="{D5BB4C0B-652C-4777-A10C-A62E63667C0B}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DEVDBR00;User ID=UsrCRM_ETL;Initial Catalog=RepExt;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-CRM_CARGADATOSTARJETACREDITOS_SSI-{D5BB4C0B-652C-4777-A10C-A62E63667C0B}Cnx_RepExt;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"></DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Cnx_CRM"
+  DTS:DTSID="{A0463417-817B-4DDA-9CD1-03E0BF911586}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DEVCRM01;User ID=UsrCRM_ETL;Initial Catalog=BD_CRMFUENTE;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-CRM_CARGADATOSTARJETACREDITOS_SSI-{A0463417-817B-4DDA-9CD1-03E0BF911586}Cnx_CRM;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"></DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
